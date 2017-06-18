@@ -1,0 +1,29 @@
+{
+  "name": "protractortutorial2",
+  "version": "1.0.0",
+  "description": "basic tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirdir/protractortutorial2.git"
+  },
+  "keywords": [
+    "protractor",
+    "js",
+    "javascript",
+    "webdriver",
+    "selenium"
+  ],
+  "author": "sirdir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirdir/protractortutorial2/issues"
+  },
+  "homepage": "https://github.com/sirdir/protractortutorial2#readme",
+  "devDependencies": {
+    "protractor": "^5.1.2"
+  }
+}

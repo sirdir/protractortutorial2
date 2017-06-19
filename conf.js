@@ -11,9 +11,9 @@ exports.config = {
     specs: ['spec.js'],
     multiCapabilities: [{
         browserName: 'firefox'
-    }, {
+    }/*, {
         browserName: 'chrome'
-    }],
+    }*/],
 
     onPrepare: function() {
         jasmine.getEnv().addReporter(reporter);

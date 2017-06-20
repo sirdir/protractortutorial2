@@ -8,13 +8,10 @@ var reporter = new HtmlScreenshotReporter({
 exports.config = {
     framework: 'jasmine',
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['spec.js'],
-    multiCapabilities: [{
-        browserName: 'firefox'
-    }/*, {
+    specs: ['spec.js', 'ang3-spec.js'],
+    multiCapabilities: [ {
         browserName: 'chrome'
-    }*/],
-
+    }],
     onPrepare: function() {
         jasmine.getEnv().addReporter(reporter);
     },

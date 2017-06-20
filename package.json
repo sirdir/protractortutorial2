@@ -4,7 +4,7 @@
   "description": "basic tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "protractor conf.js"
+    "test": "protractor conf-all.js"
   },
   "repository": {
     "type": "git",

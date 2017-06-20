@@ -8,12 +8,13 @@ var reporter = new HtmlScreenshotReporter({
 exports.config = {
     framework: 'jasmine',
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['spec.js', 'ang3-spec.js'],
+    specs: ['spec.js', 'ang4-spec.js'],
     multiCapabilities: [ {
         browserName: 'chrome'
     }],
     onPrepare: function() {
         jasmine.getEnv().addReporter(reporter);
+        browser.driver.manage().window().maximize();
     },
     beforeLaunch: () => {
         return new Promise(function(resolve){
